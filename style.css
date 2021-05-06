@@ -140,3 +140,213 @@ a:visited {
 #calendar:hover{
     opacity: 0.5;
 }
+
+#punctuation{
+    content: url(./assets/periodIcon.png);
+    height: 15rem;
+    width: 15rem;
+    object-fit: cover;
+    opacity: 1;
+    mix-blend-mode: multiply;
+}
+
+#punctuation:hover{
+    opacity: 0.5;
+}
+
+#aesthetic{
+    content: url(./assets/pinkClouds.jpg);
+    height: 15rem;
+    width: 15rem;
+    object-fit: cover;
+    opacity: 1;
+    mix-blend-mode: multiply;
+}
+
+#aesthetic:hover{
+    opacity: 0.5;
+}
+
+#miniCol{
+    content: url(./assets/stubby.png);
+    height: 15rem;
+    width: 15rem;
+    object-fit: cover;
+    opacity: 1;
+    mix-blend-mode: multiply;
+}
+
+#miniCol:hover{
+    opacity: 0.5;
+}
+
+#zine{
+    content: url(./assets/bananaCroc.PNG);
+    height: 15rem;
+    width: 15rem;
+    object-fit: cover;
+    opacity: 1;
+    mix-blend-mode: multiply;
+}
+
+#zine:hover{
+    opacity: 0.5;
+}
+
+#studio3{
+    content: url(./assets/classicMickey.jpeg);
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    object-fit: cover;
+    opacity: 1;
+    mix-blend-mode: multiply;
+}
+
+#studio3:hover{
+    opacity: 0.5;
+}
+
+#cat{
+    content: url(./assets/cat.png);
+    height: 15rem;
+    width: 15rem;
+    object-fit: cover;
+    opacity: 1;
+    mix-blend-mode: multiply;
+}
+
+#cat:hover{
+    opacity: 0.5;
+}
+
+#cinderella{
+    content: url(./assets/cinderella.jpg);
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    object-fit: cover;
+    opacity: 1;
+    mix-blend-mode: multiply;
+}
+
+#cinderella:hover{
+    opacity: 0.5;
+}
+
+#desertStubby{
+    content: url(./assets/desertStubby.png);
+    height: 15rem;
+    width: 15rem;
+    object-fit: cover;
+    opacity: 1;
+    mix-blend-mode: multiply;
+}
+
+#desertStubby:hover{
+    opacity: 0.5;
+}
+
+#devilCore{
+    content: url(./assets/devilCore2.jpg);
+    height: 15rem;
+    width: 15rem;
+    object-fit: cover;
+    opacity: 1;
+    mix-blend-mode: multiply;
+}
+
+#devilCore:hover{
+    opacity: 0.5;
+}
+
+#fairyCore{
+    content: url(./assets/fairyCore1.jpg);
+    height: 15rem;
+    width: 15rem;
+    object-fit: cover;
+    opacity: 1;
+    mix-blend-mode: multiply;
+}
+
+#fairyCore:hover{
+    opacity: 0.5;
+}
+
+#goliath{
+    content: url(./assets/goliath.png);
+    height: 15rem;
+    width: 15rem;
+    object-fit: cover;
+    opacity: 1;
+    mix-blend-mode: multiply;
+}
+
+#goliath:hover{
+    opacity: 0.5;
+}
+
+#hiromi{
+    content: url(./assets/hiromi.jpg);
+    height: 15rem;
+    width: 15rem;
+    object-fit: cover;
+    opacity: 1;
+    mix-blend-mode: multiply;
+}
+
+#hiromi:hover{
+    opacity: 0.5;
+}
+
+#mike{
+    content: url(./assets/mike.jpg);
+    height: 15rem;
+    width: 15rem;
+    object-fit: cover;
+    opacity: 1;
+    mix-blend-mode: multiply;
+}
+
+#mike:hover{
+    opacity: 0.5;
+}
+
+#pea{
+    content: url(./assets/pea.png);
+    height: 15rem;
+    width: 15rem;
+    object-fit: cover;
+    opacity: 1;
+    mix-blend-mode: multiply;
+}
+
+#pea:hover{
+    opacity: 0.5;
+}
+
+#redCroc{
+    content: url(./assets/redCroc.png);
+    height: 15rem;
+    width: 15rem;
+    object-fit: cover;
+    opacity: 1;
+    mix-blend-mode: multiply;
+}
+
+#redCroc:hover{
+    opacity: 0.5;
+}
+
+#vaporwave{
+    content: url(./assets/vaporwave1.jpg);
+    height: 15rem;
+    width: 15rem;
+    object-fit: cover;
+    opacity: 1;
+    mix-blend-mode: multiply;
+}
+
+#vaporwave:hover{
+    opacity: 0.5;
+}
