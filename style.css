@@ -1,352 +1,792 @@
 @font-face {
-    font-family: "iA Writers QuattroS Regular";
-    src: url("./assets/iAWriterQuattroS-Regular.woff2") format("woff2");
-  }
-
-body {
-    margin: 0;
-    background: white;
-    font-family: 'Karla', sans-serif;
+  font-family: "iA Writers QuattroS Regular";
+  src: url("./assets/iAWriterQuattroS-Regular.woff2") format("woff2");
 }
 
-a{
-    text-decoration: none;
+body {
+  margin: 0;
+  background: white;
+  font-family: "Karla", sans-serif;
+}
+
+a {
+  text-decoration: none;
 }
 
 a:visited {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .headline {
-    display: block;
-    font-size: 2.6rem;
-    color: black;
-    margin: 2rem;
-    margin-bottom: 1rem;
+  display: block;
+  font-size: 2.6rem;
+  color: black;
+  margin: 2rem;
+  margin-bottom: 1rem;
 }
 
-.allHover{
-    color: black;
-    text-decoration: none;
-    font-size: 1rem;
+.allHover {
+  color: black;
+  text-decoration: none;
+  font-size: 1rem;
 }
 
-.allHover:hover{
-    color: red;
-    text-decoration: none;
+.allHover:hover {
+  color: red;
+  text-decoration: none;
 }
 
-.allHover:visited{
-    text-decoration: none;
+.allHover:visited {
+  text-decoration: none;
 }
 
-.bio{
-    display: block;
-    margin: 2rem;
-    margin-top: 1.5rem;
-    line-height: 1.5rem;
-    width: 38rem;
-    font-size: 1rem;
+.bio {
+  display: block;
+  margin: 2rem;
+  margin-top: 1.5rem;
+  line-height: 1.5rem;
+  width: 38rem;
+  font-size: 1rem;
 }
 
-.line{
-    position: absolute;
-    border-bottom: 2px solid black;
-    width: 80vw;
-    margin: 2rem;
-    top: 12.5rem;
+.line {
+  position: absolute;
+  border-bottom: 2px solid black;
+  width: 80vw;
+  margin: 2rem;
+  top: 12.5rem;
 }
 
-.container{
-    padding-top: 2rem;
-    margin: auto 0;
+.container {
+  padding-top: 2rem;
+  margin: auto 0;
 }
 
 .grid {
-    width: 80%;
-    display: grid;
-    flex-direction: column;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 5rem;
-    grid-column-gap: 6rem;
-    margin: 0 auto;
-    align-items: left;
-    justify-content: center;
+  width: 80%;
+  display: grid;
+  flex-direction: column;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5rem;
+  grid-column-gap: 6rem;
+  margin: 0 auto;
+  align-items: left;
+  justify-content: center;
+}
+
+#craigslist {
+  mix-blend-mode: multiply;
+  opacity: 1;
+  height: 15rem;
+  width: auto;
+  object-fit: cover;
+  content: url(./assets/matt.jpg);
+}
+
+#craigslist:hover {
+  opacity: 0.5;
+}
+
+#toybox {
+  mix-blend-mode: multiply;
+  opacity: 1;
+  height: 15rem;
+  width: 15rem;
+  object-fit: cover;
+  content: url(./assets/bunny.png);
+}
+
+#toybox:hover {
+  opacity: 0.5;
+}
+
+#expressive {
+  font-family: "iA Writers QuattroS Regular";
+  mix-blend-mode: multiply;
+  height: 15rem;
+  width: 15rem;
+  font-size: 4rem;
+  text-align: left;
+  color: #600000;
+  font-weight: 700;
+}
+
+#expressive:hover {
+  color: red;
+}
+
+#studio1 {
+  content: url(./assets/moth.jpg);
+  height: 15rem;
+  width: 15rem;
+  object-fit: cover;
+  opacity: 1;
+  mix-blend-mode: multiply;
+}
+
+#studio1:hover {
+  opacity: 0.5;
+}
+
+#calendar {
+  content: url(./assets/bananaDemon.jpg);
+  height: 15rem;
+  width: 15rem;
+  object-fit: cover;
+  opacity: 1;
+  mix-blend-mode: multiply;
+}
+
+#calendar:hover {
+  opacity: 0.5;
+}
+
+#punctuation {
+  content: url(./assets/periodIcon.png);
+  height: 15rem;
+  width: 15rem;
+  object-fit: cover;
+  opacity: 1;
+  mix-blend-mode: multiply;
+}
+
+#punctuation:hover {
+  opacity: 0.5;
+}
+
+#aesthetic {
+  content: url(./assets/pinkClouds.jpg);
+  height: 15rem;
+  width: 15rem;
+  object-fit: cover;
+  opacity: 1;
+  mix-blend-mode: multiply;
+}
+
+#aesthetic:hover {
+  opacity: 0.5;
+}
+
+#miniCol {
+  content: url(./assets/stubby.png);
+  height: 15rem;
+  width: 15rem;
+  object-fit: cover;
+  opacity: 1;
+  mix-blend-mode: multiply;
+}
+
+#miniCol:hover {
+  opacity: 0.5;
+}
+
+#zine {
+  content: url(./assets/bananaCroc.PNG);
+  height: 15rem;
+  width: 15rem;
+  object-fit: cover;
+  opacity: 1;
+  mix-blend-mode: multiply;
+}
+
+#zine:hover {
+  opacity: 0.5;
+}
+
+#studio3 {
+  content: url(./assets/classicMickey.jpeg);
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+  object-fit: cover;
+  opacity: 1;
+  mix-blend-mode: multiply;
+}
+
+#studio3:hover {
+  opacity: 0.5;
+}
+
+#cat {
+  content: url(./assets/cat.png);
+  height: 15rem;
+  width: 15rem;
+  object-fit: cover;
+  opacity: 1;
+  mix-blend-mode: multiply;
+  display: none;
+}
+
+#cat:hover {
+  opacity: 0.5;
+}
+
+#cinderella {
+  content: url(./assets/cinderella.jpg);
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+  object-fit: cover;
+  opacity: 1;
+  mix-blend-mode: multiply;
+  display: none;
+}
+
+#cinderella:hover {
+  opacity: 0.5;
+}
+
+#desertStubby {
+  content: url(./assets/desertStubby.png);
+  height: 15rem;
+  width: 15rem;
+  object-fit: cover;
+  opacity: 1;
+  mix-blend-mode: multiply;
+  display: none;
+}
+
+#desertStubby:hover {
+  opacity: 0.5;
+}
+
+#devilCore {
+  content: url(./assets/devilCore2.jpg);
+  height: 15rem;
+  width: 15rem;
+  object-fit: cover;
+  opacity: 1;
+  mix-blend-mode: multiply;
+  display: none;
+}
+
+#devilCore:hover {
+  opacity: 0.5;
+}
+
+#fairyCore {
+  content: url(./assets/fairyCore1.jpg);
+  height: 15rem;
+  width: 15rem;
+  object-fit: cover;
+  opacity: 1;
+  mix-blend-mode: multiply;
+  display: none;
+}
+
+#fairyCore:hover {
+  opacity: 0.5;
+}
+
+#goliath {
+  content: url(./assets/goliath.png);
+  height: 15rem;
+  width: 15rem;
+  object-fit: cover;
+  opacity: 1;
+  mix-blend-mode: multiply;
+  display: none;
+}
+
+#goliath:hover {
+  opacity: 0.5;
+}
+
+#hiromi {
+  content: url(./assets/hiromi.jpg);
+  height: 15rem;
+  width: 15rem;
+  object-fit: cover;
+  opacity: 1;
+  mix-blend-mode: multiply;
+  display: none;
+}
+
+#hiromi:hover {
+  opacity: 0.5;
+}
+
+#mike {
+  content: url(./assets/mike.jpg);
+  height: 15rem;
+  width: 15rem;
+  object-fit: cover;
+  opacity: 1;
+  mix-blend-mode: multiply;
+  display: none;
+}
+
+#mike:hover {
+  opacity: 0.5;
+}
+
+#pea {
+  content: url(./assets/pea.png);
+  height: 15rem;
+  width: 15rem;
+  object-fit: cover;
+  opacity: 1;
+  mix-blend-mode: multiply;
+  display: none;
+}
+
+#pea:hover {
+  opacity: 0.5;
+}
+
+#redCroc {
+  content: url(./assets/redCroc.png);
+  height: 15rem;
+  width: 15rem;
+  object-fit: cover;
+  opacity: 1;
+  mix-blend-mode: multiply;
+  display: none;
+}
+
+#redCroc:hover {
+  opacity: 0.5;
+}
+
+#vaporwave {
+  content: url(./assets/vaporwave1.jpg);
+  height: 15rem;
+  width: 15rem;
+  object-fit: cover;
+  opacity: 1;
+  mix-blend-mode: multiply;
+  display: none;
+}
+
+#vaporwave:hover {
+  opacity: 0.5;
+}
+
+#spaceCore {
+  content: url(./assets/spaceCore8.jpg);
+  height: 15rem;
+  width: 15rem;
+  object-fit: cover;
+  opacity: 1;
+  mix-blend-mode: multiply;
+  display: none;
+}
+
+#spaceCore:hover {
+  opacity: 0.5;
+}
+
+@media only screen and (min-width: 411px) and (max-width: 960px) {
+  
+    .bio {
+      width: 80vw;
+      font-size: 1rem;
+    }
+  
+    .line {
+      top: 15rem;
+    }
+  
+    .grid {
+      margin-left: 3rem;
+      align-items: center;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 5rem;
+      grid-column-gap: 2rem;
+      margin-bottom: 2rem;
+    }
+  
+    #craigslist {
+      height: 10rem;
+      width: 10rem;
+    }
+  
+    #toybox {
+      height: 10rem;
+      width: 10rem;
+    }
+  
+    #expressive {
+      height: 10rem;
+      width: 10rem;
+      font-size: 2.5rem;
+    }
+  
+    #studio1 {
+      height: 10rem;
+      width: 10rem;
+    }
+  
+    #calendar {
+      height: 10rem;
+      width: 10rem;
+    }
+  
+    #punctuation {
+      height: 10rem;
+      width: 10rem;
+    }
+  
+    #aesthetic {
+      height: 10rem;
+      width: 10rem;
+    }
+  
+    #miniCol {
+      height: 10rem;
+      width: 10rem;
+    }
+  
+    #zine {
+      height: 10rem;
+      width: 10rem;
+    }
+  
+    #studio3 {
+      height: 10rem;
+      width: 10rem;
+    }
+  
+    #cat {
+      height: 10rem;
+      width: 10rem;
+      display: block;
+    }
+  
+    #cinderella {
+      height: 10rem;
+      width: 10rem;
+      display: block;
+    }
+  
+    #desertStubby {
+      height: 10rem;
+      width: 10rem;
+      display: block;
+    }
+  
+    #devilCore {
+      height: 10rem;
+      width: 10rem;
+      display: block;
+    }
+  
+    #fairyCore {
+      height: 10rem;
+      width: 10rem;
+      display: block;
+    }
+  
+    #goliath {
+      height: 10rem;
+      width: 10rem;
+      display: block;
+    }
+  
+    #hiromi {
+      height: 10rem;
+      width: 10rem;
+      display: block;
+    }
+  
+    #mike {
+      height: 10rem;
+      width: 10rem;
+      display: block;
+    }
+  
   }
 
-#craigslist{
-    mix-blend-mode: multiply;
-    opacity: 1;
-    height: 15rem;
-    width: auto;
-    object-fit: cover;
-    content: url(./assets/matt.jpg);
+@media only screen and (max-width: 411px) and (min-width: 375px) {
+  .headline {
+    font-size: 2rem;
+  }
+
+  .bio {
+    width: 22rem;
+    font-size: 1rem;
+  }
+
+  .line {
+    top: 15rem;
+  }
+
+  .grid {
+    margin-left: 3rem;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5rem;
+    grid-column-gap: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  #craigslist {
+    height: 10rem;
+    width: 10rem;
+  }
+
+  #toybox {
+    height: 10rem;
+    width: 10rem;
+  }
+
+  #expressive {
+    height: 10rem;
+    width: 10rem;
+    font-size: 2.5rem;
+  }
+
+  #studio1 {
+    height: 10rem;
+    width: 10rem;
+  }
+
+  #calendar {
+    height: 10rem;
+    width: 10rem;
+  }
+
+  #punctuation {
+    height: 10rem;
+    width: 10rem;
+  }
+
+  #aesthetic {
+    height: 10rem;
+    width: 10rem;
+  }
+
+  #miniCol {
+    height: 10rem;
+    width: 10rem;
+  }
+
+  #zine {
+    height: 10rem;
+    width: 10rem;
+  }
+
+  #studio3 {
+    height: 10rem;
+    width: 10rem;
+  }
+
+  #cat {
+    height: 10rem;
+    width: 10rem;
+    display: block;
+  }
+
+  #cinderella {
+    height: 10rem;
+    width: 10rem;
+    display: block;
+  }
+
+  #desertStubby {
+    height: 10rem;
+    width: 10rem;
+    display: block;
+  }
+
+  #devilCore {
+    height: 10rem;
+    width: 10rem;
+    display: block;
+  }
+
+  #fairyCore {
+    height: 10rem;
+    width: 10rem;
+    display: block;
+  }
+
+  #goliath {
+    height: 10rem;
+    width: 10rem;
+    display: block;
+  }
+
+  #hiromi {
+    height: 10rem;
+    width: 10rem;
+    display: block;
+  }
+
+  #mike {
+    height: 10rem;
+    width: 10rem;
+    display: block;
+  }
+
+  #pea {
+    height: 10rem;
+    width: 10rem;
+    display: block;
+  }
+
+  #redCroc {
+    height: 10rem;
+    width: 10rem;
+    display: block;
+  }
+
+  #vaporwave {
+    height: 10rem;
+    width: 10rem;
+    display: block;
+  }
+
+  #spaceCore {
+    height: 10rem;
+    width: 10rem;
+    display: block;
+  }
 }
 
-#craigslist:hover{
-    opacity: 0.5;
-}
+@media only screen and (max-width: 375px) {
+  .headline {
+    font-size: 2rem;
+  }
 
-#toybox{
-    mix-blend-mode: multiply;
-    opacity: 1;
-    height: 15rem;
-    width: 15rem;
-    object-fit: cover;
-    content: url(./assets/bunny.png);
-}
+  .bio {
+    width: 18.5rem;
+    font-size: 1rem;
+  }
 
-#toybox:hover{
-    opacity: 0.5;
-}
+  .line {
+    top: 16.5rem;
+  }
 
-#expressive{
-    font-family: "iA Writers QuattroS Regular";
-    mix-blend-mode: multiply;
-    height: 15rem;
-    width: 15rem;
-    font-size: 4rem;
-    text-align: left;
-    color: #600000;
-    font-weight: 700;
-}
+  .grid {
+    margin-left: 2.5rem;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5rem;
+    grid-column-gap: 2rem;
+    margin-bottom: 2rem;
+  }
 
-#expressive:hover{
-    color: red;
-}
+  #craigslist {
+    height: 8rem;
+    width: 8rem;
+  }
 
-#studio1{
-    content: url(./assets/moth.jpg);
-    height: 15rem;
-    width: 15rem;
-    object-fit: cover;
-    opacity: 1;
-    mix-blend-mode: multiply;
-}
+  #toybox {
+    height: 8rem;
+    width: 8rem;
+  }
 
-#studio1:hover{
-    opacity: 0.5;
-}
+  #expressive {
+    height: 8rem;
+    width: 8rem;
+    font-size: 2rem;
+  }
 
-#calendar{
-    content: url(./assets/bananaDemon.jpg);
-    height: 15rem;
-    width: 15rem;
-    object-fit: cover;
-    opacity: 1;
-    mix-blend-mode: multiply;
-}
+  #studio1 {
+    height: 8rem;
+    width: 8rem;
+  }
 
-#calendar:hover{
-    opacity: 0.5;
-}
+  #calendar {
+    height: 8rem;
+    width: 8rem;
+  }
 
-#punctuation{
-    content: url(./assets/periodIcon.png);
-    height: 15rem;
-    width: 15rem;
-    object-fit: cover;
-    opacity: 1;
-    mix-blend-mode: multiply;
-}
+  #punctuation {
+    height: 8rem;
+    width: 8rem;
+  }
 
-#punctuation:hover{
-    opacity: 0.5;
-}
+  #aesthetic {
+    height: 8rem;
+    width: 8rem;
+  }
 
-#aesthetic{
-    content: url(./assets/pinkClouds.jpg);
-    height: 15rem;
-    width: 15rem;
-    object-fit: cover;
-    opacity: 1;
-    mix-blend-mode: multiply;
-}
+  #miniCol {
+    height: 8rem;
+    width: 8rem;
+  }
 
-#aesthetic:hover{
-    opacity: 0.5;
-}
+  #zine {
+    height: 8rem;
+    width: 8rem;
+  }
 
-#miniCol{
-    content: url(./assets/stubby.png);
-    height: 15rem;
-    width: 15rem;
-    object-fit: cover;
-    opacity: 1;
-    mix-blend-mode: multiply;
-}
+  #studio3 {
+    height: 8rem;
+    width: 8rem;
+  }
 
-#miniCol:hover{
-    opacity: 0.5;
-}
+  #cat {
+    height: 8rem;
+    width: 8rem;
+    display: block;
+  }
 
-#zine{
-    content: url(./assets/bananaCroc.PNG);
-    height: 15rem;
-    width: 15rem;
-    object-fit: cover;
-    opacity: 1;
-    mix-blend-mode: multiply;
-}
+  #cinderella {
+    height: 8rem;
+    width: 8rem;
+    display: block;
+  }
 
-#zine:hover{
-    opacity: 0.5;
-}
+  #desertStubby {
+    height: 8rem;
+    width: 8rem;
+    display: block;
+  }
 
-#studio3{
-    content: url(./assets/classicMickey.jpeg);
-    height: 15rem;
-    width: 15rem;
-    border-radius: 50%;
-    object-fit: cover;
-    opacity: 1;
-    mix-blend-mode: multiply;
-}
+  #devilCore {
+    height: 8rem;
+    width: 8rem;
+    display: block;
+  }
 
-#studio3:hover{
-    opacity: 0.5;
-}
+  #fairyCore {
+    height: 8rem;
+    width: 8rem;
+    display: block;
+  }
 
-#cat{
-    content: url(./assets/cat.png);
-    height: 15rem;
-    width: 15rem;
-    object-fit: cover;
-    opacity: 1;
-    mix-blend-mode: multiply;
-}
+  #goliath {
+    height: 8rem;
+    width: 8rem;
+    display: block;
+  }
 
-#cat:hover{
-    opacity: 0.5;
-}
+  #hiromi {
+    height: 8rem;
+    width: 8rem;
+    display: block;
+  }
 
-#cinderella{
-    content: url(./assets/cinderella.jpg);
-    height: 15rem;
-    width: 15rem;
-    border-radius: 50%;
-    object-fit: cover;
-    opacity: 1;
-    mix-blend-mode: multiply;
-}
+  #mike {
+    height: 8rem;
+    width: 8rem;
+    display: block;
+  }
 
-#cinderella:hover{
-    opacity: 0.5;
-}
+  #pea {
+    height: 8rem;
+    width: 8rem;
+    display: block;
+  }
 
-#desertStubby{
-    content: url(./assets/desertStubby.png);
-    height: 15rem;
-    width: 15rem;
-    object-fit: cover;
-    opacity: 1;
-    mix-blend-mode: multiply;
-}
+  #redCroc {
+    height: 8rem;
+    width: 8rem;
+    display: block;
+  }
 
-#desertStubby:hover{
-    opacity: 0.5;
-}
+  #vaporwave {
+    height: 8rem;
+    width: 8rem;
+    display: block;
+  }
 
-#devilCore{
-    content: url(./assets/devilCore2.jpg);
-    height: 15rem;
-    width: 15rem;
-    object-fit: cover;
-    opacity: 1;
-    mix-blend-mode: multiply;
-}
-
-#devilCore:hover{
-    opacity: 0.5;
-}
-
-#fairyCore{
-    content: url(./assets/fairyCore1.jpg);
-    height: 15rem;
-    width: 15rem;
-    object-fit: cover;
-    opacity: 1;
-    mix-blend-mode: multiply;
-}
-
-#fairyCore:hover{
-    opacity: 0.5;
-}
-
-#goliath{
-    content: url(./assets/goliath.png);
-    height: 15rem;
-    width: 15rem;
-    object-fit: cover;
-    opacity: 1;
-    mix-blend-mode: multiply;
-}
-
-#goliath:hover{
-    opacity: 0.5;
-}
-
-#hiromi{
-    content: url(./assets/hiromi.jpg);
-    height: 15rem;
-    width: 15rem;
-    object-fit: cover;
-    opacity: 1;
-    mix-blend-mode: multiply;
-}
-
-#hiromi:hover{
-    opacity: 0.5;
-}
-
-#mike{
-    content: url(./assets/mike.jpg);
-    height: 15rem;
-    width: 15rem;
-    object-fit: cover;
-    opacity: 1;
-    mix-blend-mode: multiply;
-}
-
-#mike:hover{
-    opacity: 0.5;
-}
-
-#pea{
-    content: url(./assets/pea.png);
-    height: 15rem;
-    width: 15rem;
-    object-fit: cover;
-    opacity: 1;
-    mix-blend-mode: multiply;
-}
-
-#pea:hover{
-    opacity: 0.5;
-}
-
-#redCroc{
-    content: url(./assets/redCroc.png);
-    height: 15rem;
-    width: 15rem;
-    object-fit: cover;
-    opacity: 1;
-    mix-blend-mode: multiply;
-}
-
-#redCroc:hover{
-    opacity: 0.5;
-}
-
-#vaporwave{
-    content: url(./assets/vaporwave1.jpg);
-    height: 15rem;
-    width: 15rem;
-    object-fit: cover;
-    opacity: 1;
-    mix-blend-mode: multiply;
-}
-
-#vaporwave:hover{
-    opacity: 0.5;
+  #spaceCore {
+    height: 8rem;
+    width: 8rem;
+    display: block;
+  }
 }
