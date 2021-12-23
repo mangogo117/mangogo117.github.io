@@ -5,7 +5,7 @@
 
 body {
   margin: 0;
-  background: grey;
+  background: black;
   font-family: "Karla", sans-serif;
 }
 
@@ -17,16 +17,8 @@ a:visited {
   text-decoration: none;
 }
 
-.headline {
-  display: block;
-  font-size: 2.6rem;
-  color: black;
-  margin: 2rem;
-  margin-bottom: 1rem;
-}
-
 .allHover {
-  color: black;
+  color: #d4d4d4;
   text-decoration: none;
   font-size: 1rem;
 }
@@ -44,7 +36,8 @@ li {
   display: inline-block;
   padding-right: 20px;
   padding-left: 20px;
-  color: #eee;
+  width: 20vw;
+  color: #d4d4d4;
 }
 
 .divBlock {
@@ -100,7 +93,7 @@ li {
   position: static;
   z-index: 1;
   padding-left: 20px;
-  color: white;
+  color: #d4d4d4;
   font-weight: 500;
 }
 
@@ -112,7 +105,7 @@ li {
   -webkit-align-self: flex-start;
   -ms-flex-item-align: start;
   align-self: flex-start;
-  background-color: #eee;
+  background-color: #d4d4d4;
 }
 
 .section{
@@ -161,9 +154,10 @@ li {
 .naviBar{
   position: absolute;
   left: 10vw;
-  top: 10vh;
+  top: 3vh;
   display: inline-block;
   list-style-type: none;
+  text-align: center;
 }
 
 .intro {
@@ -172,15 +166,15 @@ li {
   display: -ms-flexbox;
   display: flex;
   width: 300px;
-  padding-top: 20px;
-  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
   padding-left: 20px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  color: white;
+  color: #d4d4d4;
 }
 
 .bio {
